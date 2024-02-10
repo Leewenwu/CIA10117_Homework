@@ -97,32 +97,29 @@ public class Hw3adv {
 		}
 		System.out.println("共" + count + "個數字");
 		System.out.println("印出6個號碼");
-		
-		
+
 		int[] data = new int[6];
-		
+
 		for (int b = 0; b < data.length; b++) {
 			do {
-			data[b] = (int) (Math.random() * 49) + 1;
+				data[b] = (int) (Math.random() * 49) + 1;
 //			for (int c = 0; c < b; c++) {
 				int ten = data[b] / 10;
 				int one = data[b] % 10;
- 
+
 				if (ten == num || one == num || data[b] == num) {
-									continue;
+					continue;
 				}
-				
+
 				break;
-			
-			}while (true);
-		
+
+			} while (true);
+
 		}
-			
+
 		for (int d = 0; d < 6; d++) {
 			System.out.println(data[d]);
 		}
-
-//			
 
 	}
 }
