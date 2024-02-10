@@ -27,6 +27,7 @@ public class Hw2 {
 //
 //		}
 
+// test
 //		使用while迴圈 + do while迴圈 
 //		int i, j;
 //		i = 1;
