@@ -6,6 +6,7 @@ public class Hw2 {
 
 //		• 請建立一個TestNineNine.java程式,可輸出九九乘法表
 
+//
 // 		使用for迴圈 + while迴圈
 //		int i;
 //		for (i = 2; i < 10; i++) {
@@ -27,6 +28,7 @@ public class Hw2 {
 //
 //		}
 
+// test
 //		使用while迴圈 + do while迴圈 
 //		int i, j;
 //		i = 1;
