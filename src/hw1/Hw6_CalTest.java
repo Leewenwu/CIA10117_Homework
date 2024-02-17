@@ -17,18 +17,18 @@ public class Hw6_CalTest {
 
 		Scanner in = new Scanner(System.in);
 		try {
-			System.out.print("請輸入X值:");
-			int x = in.nextInt();
-			System.out.print("請輸入Y值:");
-			int y = in.nextInt();
-			Hw6_Calculator mysum = new Hw6_Calculator();
-
-			if (y >= 0) {
+		System.out.print("請輸入X值:");
+		int x = in.nextInt();
+		System.out.print("請輸入Y值:");
+		int y = in.nextInt();
+		Hw6_Calculator mysum = new Hw6_Calculator();
+	
+			if (y >= 0 & x >= 0) {
 				System.out.println(mysum.powerXY(x, y));
 			} else {
 				System.out.println("次方為負值，結果回傳不為整數!");
-
 			}
+
 		} catch (InputMismatchException a) {
 			System.out.println("輸入格式不正確!");
 		} catch (Hw6_CalException b) {
